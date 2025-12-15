@@ -7,6 +7,7 @@ public class Palindrome {
 	public static void main(String[] args) 
 	{
 		System.out.println("Enter a palindrome");
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		String str =input.next();
 		checkStringIsPalindrome(str);
@@ -31,6 +32,7 @@ public class Palindrome {
 		{
 			System.out.println(str +" is not a palindrome");
 		}
+		
 	}
 
 }

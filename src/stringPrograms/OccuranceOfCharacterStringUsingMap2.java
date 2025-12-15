@@ -1,0 +1,44 @@
+package stringPrograms;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class OccuranceOfCharacterStringUsingMap2 {
+
+	public static void main(String[] args) 
+	{
+		toFindOccuranceCharacterString("Hello");
+	}
+
+	private static void toFindOccuranceCharacterString(String str) 
+	{
+		str = str.toLowerCase();
+		char[] chars = str.toCharArray();
+		
+		Map<Character, Integer> hMap=new LinkedHashMap<Character, Integer>();
+		
+		for(char ch:chars)
+		{
+			if(hMap.containsKey(ch))
+			{
+				hMap.put(ch, hMap.get(ch)+1);
+			}
+			else
+			{
+				hMap.put(ch,1);
+			}
+		}
+		System.out.println(hMap);
+		
+		Set<Entry<Character, Integer>> entries = hMap.entrySet();
+		
+		for(Entry<Character, Integer>entry:entries)
+		{
+			System.out.println(entry.getKey()+ "-----"+entry.getValue());
+		}
+		
+	}
+
+}
