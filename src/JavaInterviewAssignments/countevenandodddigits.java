@@ -2,7 +2,7 @@ package JavaInterviewAssignments;
 
 import java.util.Scanner;
 
-public class countevenandodddigits {
+public class CountEvenAndOdddigits {
 
 	public static void main(String[] args) 
 	{

@@ -2,7 +2,7 @@ package JavaInterviewAssignments;
 
 import java.util.Scanner;
 
-public class countnumberofdigits {
+public class CountNumberOfDigits {
 
 	public static void main(String[] args) 
 	{
@@ -31,5 +31,4 @@ public class countnumberofdigits {
 	        System.out.println("Number of digits " + count);
 		
 	}
-
 }

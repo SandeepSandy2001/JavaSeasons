@@ -14,15 +14,15 @@ public class StringVsStringBufferVsStringBuilder {
 		
 		//StringBuffer -->Mutable -> can change original value 
 		
-		StringBuffer sbf = new StringBuffer("Welocme");
-		sbf.append("to Java");
+		StringBuffer sbf = new StringBuffer("Welcome");
+		sbf.append(" to Java");
 		System.out.println(sbf);
 		
 		
 		//StringBuilder -->Mutable -> can change original value 
 		
-		StringBuffer sbr = new StringBuffer("Welocme");
-		sbr.append("to Java");
+		StringBuilder sbr = new StringBuilder("Welcome");
+		sbr.append(" to Java");
 		System.out.println(sbr);
 		
 
