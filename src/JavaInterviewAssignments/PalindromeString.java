@@ -20,7 +20,7 @@ public class PalindromeString {
 	    }
 	    if(org_str.equals(rev))
 	    {
-	    	System.out.println(org_str + "is a palindrome String");
+	    	System.out.println(org_str + " is a palindrome String");
 	    }
 	    else
 	    {
